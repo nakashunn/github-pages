@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>タイピングゲーム</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <div class="moku">精神統一</div>
+    </div>
+    <h2>タイピング道場</h2>
+      <div id="frame"></div>
+        <input type="button" class="button" id="restart" value="もう一本" onclick="gameSet();"><script type="text/javascript" src="script.js"></script>
+      <p>
+        <input type="button" value="カウント開始" id="startcount" class="st" onclick="startShowing();">
+        <input type="button" value="カウント停止" id="endcount" class="ed" onclick="stopShowing();">
+     </p>
+     <p id="PassageArea"></p>
+  </body>
+</html>
